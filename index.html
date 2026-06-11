@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ช่องทางติดต่อ | My Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #5865F2; /* สีกรอบรูป */
+        }
+        h1 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            color: #a0a0a0;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .link-btn {
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            background-color: #2a2a2a;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        .link-btn.discord {
+            background-color: #5865F2; /* สีพื้นหลังปุ่ม Discord */
+        }
+        .link-btn.donate {
+            background-color: #ff5e5e; /* สีพื้นหลังปุ่ม Donate */
+        }
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+
+    <h1>ชื่อของคุณ / ชื่อช่อง</h1>
+    <p>ยินดีต้อนรับ! เลือกช่องทางด้านล่างได้เลยครับ 👇</p>
+
+    <a href="https://discord.gg/B374ttFF" class="link-btn discord" target="_blank">🎮 เข้าร่วม Discord ของเรา</a>
+
+    <a href="#" class="link-btn donate" target="_blank">☕ สนับสนุน / Donate</a>
+
+</body>
+</html>
